@@ -67,7 +67,6 @@ class Namekuseijin extends PersonagemDragonBall {
     }
 
     public String fazerDesejo(String desejo) {
-        // Simulação da tradução para Namekusei
         return "Desejo em Namekusei: " + desejo;
     }
 
@@ -83,22 +82,18 @@ class PersonagemFactory {
             case "Kuririn":
                 Terraqueo kuririn = new Terraqueo();
                 kuririn.nome = "Kuririn";
-                // Preencha os demais atributos se necessário
                 return kuririn;
             case "Goku":
                 Sayajin goku = new Sayajin();
                 goku.nome = "Goku";
-                // Preencha os demais atributos se necessário
                 return goku;
             case "Gohan":
                 Sayajin gohan = new Sayajin();
                 gohan.nome = "Gohan";
-                // Preencha os demais atributos se necessário
                 return gohan;
             case "Dendê":
                 Namekuseijin dende = new Namekuseijin();
                 dende.nome = "Dendê";
-                // Preencha os demais atributos se necessário
                 return dende;
             default:
                 return null;
